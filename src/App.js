@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import styles from 'Styles/styles.module.css'
+import {Start} from 'Pages/start'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container} style={{backgroundImage: 'url(/images/background.jpg)'}}>
+      <Start/>
     </div>
-  );
+  )
 }
-
-export default App;

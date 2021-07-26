@@ -1,0 +1,26 @@
+
+.container {
+   
+    cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39,
+    auto;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    flex-direction: row;
+  }
+
+h1 {
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 5vh;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 5vh;
+  text-align: left;
+  color: #fff;
+}
